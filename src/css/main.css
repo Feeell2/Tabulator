@@ -1,0 +1,33 @@
+.main{
+    position: relative;
+    display: flex;
+    min-height: calc(100% - 125px);
+    width: 100%;
+    overflow-y: auto;
+}
+
+
+
+.wrapper{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+}
+.wrapper::before {
+
+
+    content: "";
+    background-color: rgb(15, 15, 15);
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -10;
+}

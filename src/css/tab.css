@@ -1,0 +1,19 @@
+.tab{
+    padding: 10px;
+    background-color: rgba(15, 15, 15,0.8);
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.tab_titleSongs{
+    font-size: 20px;
+}
+.tab_artist{
+    font-size: 18px;
+
+}
+@media only screen and (min-width: 992px) {
+
+}

@@ -1,18 +1,18 @@
 import React from 'react';
 
-function Form() {
+function Form(props) {
     return (
     <form className="form">
         <label htmlFor="search" className={"form__input__label"}>Write artist or song</label>
-        <input id="search" type="text" placeholder={"search"} className={"search__input inputStyle"}/>
-        <label htmlFor="search" className={"form__input__label"}>Choose type</label>
-        <select className={"form__select inputStyle"}>
-            <option value="chords">chords</option>
-            <option value="bass">bass</option>
-            <option value="quitar">quitar</option>
-            <option value="player">player</option>
+        <input name={"search"} onChange={props.change} id="search" type="text" placeholder={"search"} className={"search__input inputStyle"}/>
+        <label htmlFor="tab" className={"form__input__label"}>Choose type</label>
+        <select name={"tab"} onChange={props.change} className={"form__select inputStyle"}>
+            <option value="CHORDS">chords</option>
+            <option value="TEXT_BASS_TAB">bass</option>
+            <option value="TEXT_GUITAR_TAB">quitar</option>
+            <option value="PLAYER">player</option>
         </select>
-        <input type="submit" className="form__submit inputStyle" value={"SEARCH"}/>
+        <input type="submit" onClick={props.click} className="form__submit inputStyle" value={"SEARCH"}/>
     </form>
     )
 }

@@ -9,7 +9,7 @@
 .App {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 99vh;
   width: 100vw;
   background-image:url('../photo/music-3735836_640.jpg') ;
   background-repeat: no-repeat;
@@ -17,6 +17,7 @@
   background-position: center;
   background-attachment: fixed;
 overflow-x:hidden ;
+  overflow-y: auto;
 }
 .header{
   background-color: #0f0f0f;
@@ -42,7 +43,13 @@ overflow-x:hidden ;
   color: #808080;
   min-height: 25px;
   background-color: #0f0f0f;
-  z-index: 10;
+width: 100%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+
 }
 @media only screen and (min-width: 992px) {
   .App{

@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Tabulator/static/css/main.442ecd4b.chunk.css",
+    "main.js": "/Tabulator/static/js/main.8822c6c6.chunk.js",
+    "main.js.map": "/Tabulator/static/js/main.8822c6c6.chunk.js.map",
+    "runtime-main.js": "/Tabulator/static/js/runtime-main.295e72d7.js",
+    "runtime-main.js.map": "/Tabulator/static/js/runtime-main.295e72d7.js.map",
+    "static/js/2.034ea1ab.chunk.js": "/Tabulator/static/js/2.034ea1ab.chunk.js",
+    "static/js/2.034ea1ab.chunk.js.map": "/Tabulator/static/js/2.034ea1ab.chunk.js.map",
+    "index.html": "/Tabulator/index.html",
+    "precache-manifest.c68103b1cc0c2d7e213c99adf1d9c8f5.js": "/Tabulator/precache-manifest.c68103b1cc0c2d7e213c99adf1d9c8f5.js",
+    "service-worker.js": "/Tabulator/service-worker.js",
+    "static/css/main.442ecd4b.chunk.css.map": "/Tabulator/static/css/main.442ecd4b.chunk.css.map",
+    "static/js/2.034ea1ab.chunk.js.LICENSE.txt": "/Tabulator/static/js/2.034ea1ab.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Tabulator/static/media/music-3735836_640.99003298.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.295e72d7.js",
+    "static/js/2.034ea1ab.chunk.js",
+    "static/css/main.442ecd4b.chunk.css",
+    "static/js/main.8822c6c6.chunk.js"
+  ]
+}

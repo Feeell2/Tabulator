@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "261b55a77fcdf705ecf40f70fe01a0de",
+    "revision": "93c548c8eeb5300f307000c97e3450a3",
     "url": "/Tabulator/index.html"
   },
   {
-    "revision": "524caa736d485552529d",
+    "revision": "d0708739296cfba5e924",
     "url": "/Tabulator/static/css/main.442ecd4b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Tabulator/static/js/2.034ea1ab.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "524caa736d485552529d",
-    "url": "/Tabulator/static/js/main.8822c6c6.chunk.js"
+    "revision": "d0708739296cfba5e924",
+    "url": "/Tabulator/static/js/main.51d0a440.chunk.js"
   },
   {
     "revision": "5ed44524519b9b0a8c9f",

@@ -24,9 +24,9 @@ handleChange=(event)=>{
     })
 };
 handleDateSearch=(e)=>{
-    if(this.state.search==="") alert("Write artist or song");
+    if(this.state.search==="") alert("Write artist or song") ;
     e.preventDefault();
-    const url=`http://www.songsterr.com/a/ra/songs.json?pattern=${this.state.search}`;
+    const url=`https://www.songsterr.com/a/ra/songs.json?pattern=${this.state.search}`;
     fetch(url)
         .then(response=>{
             console.log(response);

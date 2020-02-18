@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c60bd3db-ba68-4fc2-aca3-d8a8b29ed74d" name="Default Changelist" comment="done handling Api and adds scores to list">
+    <list default="true" id="c60bd3db-ba68-4fc2-aca3-d8a8b29ed74d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/List.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/List.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tab.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +89,8 @@
       <option name="presentableId" value="Default" />
       <updated>1581773540017</updated>
       <workItem from="1581773542695" duration="34674000" />
-      <workItem from="1581957159491" duration="18310000" />
+      <workItem from="1581957159491" duration="18430000" />
+      <workItem from="1582048936413" duration="13931000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1581960759183</created>
@@ -102,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581960759183</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="done handling Api and adds scores to list">
+      <created>1581980319306</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581980319306</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,10 +127,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.-125.1920.1150/0.0.1536.824@0.0.1536.824" timestamp="1581776778459" />
-    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1581980264622">
+    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1582065019427">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="8" key="CommitChangelistDialog2/1920.-125.1920.1150/0.0.1536.824@0.0.1536.824" timestamp="1581980264622" />
+    <state x="393" y="8" key="CommitChangelistDialog2/1920.-125.1920.1150/0.0.1536.824@0.0.1536.824" timestamp="1582065019427" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1581892242766">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -151,17 +155,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/1920.-125.1920.1150/0.0.1536.824@0.0.1536.824" timestamp="1581960779217" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1581957226828">
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1582048940014">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/1920.-125.1920.1150/0.0.1536.824@0.0.1536.824" timestamp="1581957226828" />
-    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581980186621">
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/1920.-125.1920.1150/0.0.1536.824@0.0.1536.824" timestamp="1582048940014" />
+    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582064981945">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.-125.1920.1150/0.0.1536.824@0.0.1536.824" timestamp="1581980186621" />
+    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.-125.1920.1150/0.0.1536.824@0.0.1536.824" timestamp="1582064981945" />
     <state x="456" y="260" width="705" height="304" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1581778617328">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="456" y="260" width="705" height="304" key="org.intellij.images.editor.actions.BackgroundImageDialog/1920.-125.1920.1150/0.0.1536.824@0.0.1536.824" timestamp="1581778617328" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1582049078414">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/1920.-125.1920.1150/0.0.1536.824@0.0.1536.824" timestamp="1582049078414" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1582056164268">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/1920.-125.1920.1150/0.0.1536.824@0.0.1536.824" timestamp="1582056164268" />
   </component>
 </project>

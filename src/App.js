@@ -12,6 +12,7 @@ constructor(props) {
         search:"",
         tab:"CHORDS",
         items:[],
+
     };
 }
 handleChange=(event)=>{
@@ -19,10 +20,11 @@ handleChange=(event)=>{
     const name=target.name;
 
     this.setState({
-        [name]:event.target.value,
+        [name]:event.target.value
     })
 };
 handleDateSearch=(e)=>{
+    if(this.state.search==="") alert("Write artist or song");
     e.preventDefault();
     const url=`http://www.songsterr.com/a/ra/songs.json?pattern=${this.state.search}`;
     fetch(url)
@@ -50,20 +52,12 @@ handleDateSearch=(e)=>{
 };
 DisplayScores=({items})=>{ return(
 
-        items.map(item=><Tab key={item.id} TabTypes={item.tabTypes} title={item.title} nameArtist={item.artist.name} tabTypes={item.tabTypes} />)
+        items.map(item=><Tab key={item.id}  TabTypes={item.tabTypes} title={item.title} nameArtist={item.artist.name} />)
 
 
 )
 
 };
-// HandleTabTypes=(item)=>{
-//
-//         item.map(tabType=>
-//             <select className={"form__select inputStyle"}>
-//                 <option value={tabType}>{tabType}</option>
-//             </select>)
-//
-//     }
     render() {
         return (
             <div className="App">
@@ -72,7 +66,7 @@ DisplayScores=({items})=>{ return(
                 </header>
                 <main className={"main"}>
                     <div className={"wrapper"}>
-                        <Form change={this.handleChange} click={this.handleDateSearch}/>
+                        <Form change={this.handleChange}  click={this.handleDateSearch}/>
 
 
                         <ul

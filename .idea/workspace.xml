@@ -3,8 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="c60bd3db-ba68-4fc2-aca3-d8a8b29ed74d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/tab.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/tab.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +53,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -90,7 +97,7 @@
       <updated>1581773540017</updated>
       <workItem from="1581773542695" duration="34674000" />
       <workItem from="1581957159491" duration="18430000" />
-      <workItem from="1582048936413" duration="16457000" />
+      <workItem from="1582048936413" duration="33246000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1581960759183</created>
@@ -120,18 +127,36 @@
       <option name="project" value="LOCAL" />
       <updated>1582065231830</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix connection with Api">
+      <created>1582067760722</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582067760723</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="done handling Api and adds scores to list" />
     <MESSAGE value="done beta project" />
-    <option name="LAST_COMMIT_MESSAGE" value="done beta project" />
+    <MESSAGE value="fix connection with Api" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix connection with Api" />
   </component>
   <component name="WindowStateProjectService">
     <state x="496" y="88" key="#App.js" timestamp="1581798150124">
@@ -142,10 +167,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.-125.1920.1150/0.0.1536.824@0.0.1536.824" timestamp="1581776778459" />
-    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1582065231141">
+    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1582067759983">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="8" key="CommitChangelistDialog2/1920.-125.1920.1150/0.0.1536.824@0.0.1536.824" timestamp="1582065231141" />
+    <state x="393" y="8" key="CommitChangelistDialog2/1920.-125.1920.1150/0.0.1536.824@0.0.1536.824" timestamp="1582067759983" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1581892242766">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -174,10 +199,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog/1920.-125.1920.1150/0.0.1536.824@0.0.1536.824" timestamp="1582048940014" />
-    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582067734101">
+    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582150250725">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.-125.1920.1150/0.0.1536.824@0.0.1536.824" timestamp="1582067734101" />
+    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.-125.1920.1150/0.0.1536.824@0.0.1536.824" timestamp="1582150250725" />
+    <state x="463" y="10" width="609" height="804" key="find.popup" timestamp="1582147781985">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="463" y="10" width="609" height="804" key="find.popup/1920.-125.1920.1150/0.0.1536.824@0.0.1536.824" timestamp="1582147781985" />
     <state x="456" y="260" width="705" height="304" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1581778617328">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

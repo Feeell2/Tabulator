@@ -33,6 +33,14 @@ overflow-x:hidden ;
   height: 80px;
   width: 80px;
 }
+.title_list{
+  color: #2BA4C6;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
 
 .list{
   background-color: transparent;
@@ -40,6 +48,7 @@ overflow-x:hidden ;
 }
 
 .footer{
+  text-align: center;
   color: #808080;
   min-height: 25px;
   background-color: #0f0f0f;

@@ -1,19 +1,10 @@
 import React from 'react';
 
 
-class Tab extends React.Component{
-constructor(props) {
-    super(props);
-    this.state={
-        title:props.title,
-        tabTypes:props.TabTypes,
-        tabType:'',
-        artist:props.nameArtist,
-    };
+function Tab(props){
 
-}
 
-displayNameTab=(tabType)=>{
+const displayNameTab=(tabType)=>{
     switch (tabType) {
         case "PLAYER":
             return "PLAYER";
@@ -33,54 +24,34 @@ displayNameTab=(tabType)=>{
     }
 
 };
-    handleChangeTypes=(event)=>{
-        const target=event.target;
-        const name=target.name;
 
-        this.setState({
-            [name]:event.target.value
-        })
-    };
-HandleTabTypes=()=> {
-
+const DisplayTabTypes=(TabTypes)=> {
     let number = 0;
     return (
-        this.state.tabTypes.map(tabType =>
-
-            <option key={number++} value={tabType}>{this.displayNameTab(tabType)}</option>
-
+        TabTypes.map(tabType =>
+            <li className={"tab_availableTab"} key={number++}>{displayNameTab(tabType)}</li>
         ))
-}
-getLink=(song,nameArtist,tabType)=>{
-    song=song.split(' ').join('+');
-    nameArtist=nameArtist.split(' ').join('+');
-    if(tabType===""){
-        return <a href={`http://www.songsterr.com/a/wa/bestMatchForQueryString?s=${song}&a=${nameArtist}`} target={"_blank"} rel="noopener noreferrer">TRY</a>
-
-    }
-    else{
-        return <a href={`http://www.songsterr.com/a/wa/bestMatchForQueryString?s=${song}&a=${nameArtist}&track=${this.displayNameTab(tabType).toLowerCase()}`} target={"_blank"} rel="noopener noreferrer">TRY</a>
-
-    }
-}
-
-render(){
-
-    return(
+};
+const getLink=(song,nameArtist)=>{
+    song=props.title.split(' ').join('+');
+    nameArtist=props.nameArtist.split(' ').join('+');
+    return <a className={"tab_link"} href={`http://www.songsterr.com/a/wa/bestMatchForQueryString?s=${song}&a=${nameArtist}`} target={"_blank"} rel="noopener noreferrer">TRY</a>
+};
+return(
         <div className={"tab inputStyle"}>
-            <h3 className={"tab_titleSongs"}>{this.props.title}</h3>
-            <h4 className={"tab_artist"}>{this.props.nameArtist}</h4>
-            <form>
-                <label htmlFor="tabTypes" className={"tabs__select-label"}>Choose your tab types</label>
-                <select defaultValue={'empty'} name={"tabType"} id={"tabTypes"} onChange={this.handleChangeTypes} className={"form__select inputStyle"}>
-                    <option disabled value={'empty'}  hidden/>
-                    {this.HandleTabTypes(this.state.tabTypes)}
-                </select>
-            </form>
-            {this.getLink(this.state.title,this.state.artist,this.state.tabType)}
+            <h3 className={"tab_titleSongs"}>{props.title}</h3>
+            <h4 className={"tab_artist"}>{props.nameArtist}</h4>
+            <h4 className={"tab_titleAvaible"}>Available Tablature Types:</h4>
+            <ul className={"tab_list"}>
+                {DisplayTabTypes(props.TabTypes)}
+            </ul>
+
+
+
+            {getLink(props.title,props.nameArtist)}
         </div>
     )
-}
+
 
 
 

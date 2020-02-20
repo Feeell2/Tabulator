@@ -35,7 +35,7 @@ const DisplayTabTypes=(TabTypes)=> {
 const getLink=(song,nameArtist)=>{
     song=props.title.split(' ').join('+');
     nameArtist=props.nameArtist.split(' ').join('+');
-    return <a className={"tab_link"} href={`http://www.songsterr.com/a/wa/bestMatchForQueryString?s=${song}&a=${nameArtist}`} target={"_blank"} rel="noopener noreferrer">TRY</a>
+    return <a className={"tab_link"} href={`http://www.songsterr.com/a/wa/bestMatchForQueryString?s=${song}&a=${nameArtist}`} target={"_blank"} rel="noopener noreferrer">go to tab</a>
 };
 return(
         <div className={"tab inputStyle"}>

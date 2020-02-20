@@ -2,14 +2,7 @@ import React from 'react';
 import './css/App.css';
 import Logo from "./photo/logo.png";
 import Form from "./Form";
-import { css } from "@emotion/core";
 import Tab from "./Tab";
-import BeatLoader from "react-spinners/BeatLoader";
-const override = css`
-  display: block;
-  margin: 0 auto;
-  border-color: #2BA4C6;
-`;
 class App extends React.Component{
 constructor(props) {
     super(props);
@@ -17,7 +10,6 @@ constructor(props) {
         search:"",
         tab:"CHORDS",
         items:[],
-        loading: false
     };
 }
 handleChange=(event)=>{
@@ -37,7 +29,6 @@ handleDateSearch=(e)=>{
     const url=`https://www.songsterr.com/a/ra/songs.json?pattern=${this.state.search}`;
     fetch(url)
         .then(response=>{
-            console.log(response);
             if (response.ok){
                 return response.json();
             }
@@ -50,20 +41,36 @@ handleDateSearch=(e)=>{
                     afterFilterData.push(data[i])
                 }
             }
-        // const sortData=data.filter(data=>{data.tabTypes.include("TEXT_BASS_TAB")});
            this.setState({
                items:afterFilterData,
                loading:false
            })
         })
-        .catch(error=>console.log(error))
+        .catch(error=>alert(error))
 
 };
-DisplayScores=({items})=>{
-        return(
-        items.map(item=><Tab key={item.id}  TabTypes={item.tabTypes} title={item.title} nameArtist={item.artist.name} />)
-)
+displayScores=({items})=>{
+    if (items.length===0 && this.state.loading === false){
+        return <p className={"title_list"}>nothing found </p>
+    }else {
+        return (
+            items.map(item => <Tab key={item.id} TabTypes={item.tabTypes} title={item.title}
+                                   nameArtist={item.artist.name}/>)
 
+        )
+    }
+
+};
+handleLoader=()=>{
+    if(this.state.loading===true){
+        return <h3 className={"title_list"}>LOADING...</h3>
+    }
+    else{
+        return(<ul
+            className={"list"}>
+            <this.displayScores items={this.state.items}/>
+        </ul>)
+    }
 };
     render() {
         return (
@@ -75,17 +82,7 @@ DisplayScores=({items})=>{
                     <div className={"wrapper"}>
                         <Form change={this.handleChange}  click={this.handleDateSearch}/>
                         <h3 className={"title_list"}>{`Results (${this.state.items.length}):`}</h3>
-                        <BeatLoader
-                            css={override}
-                            size={25}
-                            //size={"150px"} this also works
-                            color={"#2BA4C6"}
-                            loading={this.state.loading}
-                        />
-                        <ul
-                            className={"list"}>
-                            <this.DisplayScores items={this.state.items}/>
-                        </ul>
+                        {this.handleLoader()}
                     </div>
                 </main>
                 <footer className={"footer"}>

@@ -19,8 +19,6 @@
     z-index: 100;
 }
 .wrapper::before {
-
-
     content: "";
     background-color: rgb(15, 15, 15);
     opacity: 0.6;

@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Tabulator/static/css/main.cb48c6c6.chunk.css",
-    "main.js": "/Tabulator/static/js/main.5219d52e.chunk.js",
-    "main.js.map": "/Tabulator/static/js/main.5219d52e.chunk.js.map",
+    "main.css": "/Tabulator/static/css/main.6ffaeda8.chunk.css",
+    "main.js": "/Tabulator/static/js/main.e5cbf4d5.chunk.js",
+    "main.js.map": "/Tabulator/static/js/main.e5cbf4d5.chunk.js.map",
     "runtime-main.js": "/Tabulator/static/js/runtime-main.295e72d7.js",
     "runtime-main.js.map": "/Tabulator/static/js/runtime-main.295e72d7.js.map",
-    "static/js/2.e8895872.chunk.js": "/Tabulator/static/js/2.e8895872.chunk.js",
-    "static/js/2.e8895872.chunk.js.map": "/Tabulator/static/js/2.e8895872.chunk.js.map",
+    "static/js/2.a21777bf.chunk.js": "/Tabulator/static/js/2.a21777bf.chunk.js",
+    "static/js/2.a21777bf.chunk.js.map": "/Tabulator/static/js/2.a21777bf.chunk.js.map",
     "index.html": "/Tabulator/index.html",
-    "precache-manifest.c4c0f3acaf353b7f1208b89434b4cfe7.js": "/Tabulator/precache-manifest.c4c0f3acaf353b7f1208b89434b4cfe7.js",
+    "precache-manifest.13a6c44df5e739f506ccfab0dcad0697.js": "/Tabulator/precache-manifest.13a6c44df5e739f506ccfab0dcad0697.js",
     "service-worker.js": "/Tabulator/service-worker.js",
-    "static/css/main.cb48c6c6.chunk.css.map": "/Tabulator/static/css/main.cb48c6c6.chunk.css.map",
-    "static/js/2.e8895872.chunk.js.LICENSE.txt": "/Tabulator/static/js/2.e8895872.chunk.js.LICENSE.txt",
+    "static/css/main.6ffaeda8.chunk.css.map": "/Tabulator/static/css/main.6ffaeda8.chunk.css.map",
+    "static/js/2.a21777bf.chunk.js.LICENSE.txt": "/Tabulator/static/js/2.a21777bf.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Tabulator/static/media/music-3735836_640.99003298.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.295e72d7.js",
-    "static/js/2.e8895872.chunk.js",
-    "static/css/main.cb48c6c6.chunk.css",
-    "static/js/main.5219d52e.chunk.js"
+    "static/js/2.a21777bf.chunk.js",
+    "static/css/main.6ffaeda8.chunk.css",
+    "static/js/main.e5cbf4d5.chunk.js"
   ]
 }

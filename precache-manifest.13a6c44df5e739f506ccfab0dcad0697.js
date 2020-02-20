@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b5ba7e13fb79ff98dfcf093d35755eaa",
+    "revision": "ae216a31bb8e8c62d863f29431039d65",
     "url": "/Tabulator/index.html"
   },
   {
-    "revision": "f7203ef4830a991408f6",
-    "url": "/Tabulator/static/css/main.cb48c6c6.chunk.css"
+    "revision": "28d07d3fa4d45f631a52",
+    "url": "/Tabulator/static/css/main.6ffaeda8.chunk.css"
   },
   {
-    "revision": "ff6972e4c7f3afd8c1a1",
-    "url": "/Tabulator/static/js/2.e8895872.chunk.js"
+    "revision": "3be5bbfae593a42a0805",
+    "url": "/Tabulator/static/js/2.a21777bf.chunk.js"
   },
   {
     "revision": "99bd0487192ec9e7d9ee8fbbd91ee444",
-    "url": "/Tabulator/static/js/2.e8895872.chunk.js.LICENSE.txt"
+    "url": "/Tabulator/static/js/2.a21777bf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f7203ef4830a991408f6",
-    "url": "/Tabulator/static/js/main.5219d52e.chunk.js"
+    "revision": "28d07d3fa4d45f631a52",
+    "url": "/Tabulator/static/js/main.e5cbf4d5.chunk.js"
   },
   {
     "revision": "5ed44524519b9b0a8c9f",
